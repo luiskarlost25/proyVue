@@ -10,9 +10,18 @@
 </template>
 
 <script setup>
-    import Contador from './components/Contador.vue';
+import {ref} from 'vue';
+const contador=ref (0);
 
+const incrementar =()=>{
+  contador.value++;
 
+}
+
+const decrementar =()=>{
+  contador.value--;
+
+}
 </script>
 
 <style scoped>
