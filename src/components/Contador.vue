@@ -1,7 +1,7 @@
 
 <template>
   <h1>M segundo hola mundo en VUE</h1>
-  <h4>te amo claudita cavero </h4>
+  <h4>te amo claudita  </h4>
   <p>{{ contador }}</p>
   <button @click="incrementar"> Incrementar</button>
   <br>
